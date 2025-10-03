@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>cubonegro</title>
+  <style>
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      transition: background-color 0.5s, color 0.5s;
+      margin: 0;
+      padding: 0;
+    }
+
+    .centered {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container-btn-mode {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 0;
+      display: flex;
+    }
+
+    .btn-mode {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      border: 2px solid black;
+      transition: background-color 0.5s, color 0.5s;
+    }
+
+    .btn-mode i {
+      display: block;
+      font-size: 17px;
+      text-align: center;
+      line-height: 30px;
+    }
+    .dark-mode {
+      background-color: #0e0e0e;
+      color: white;
+    }
+
+    .dark-mode .btn-mode {
+      background-color: white;
+      color: black;
+    }
+
+    img {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      transition: opacity 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+
+  <section class="centered">
+    <h1>c u b o n e g r o</h1>
+    <img id="logo" src="logo-dark.png" alt="cubonegro logo" height="240" width="240">
+    <p>Larga vida al p2p</p>
+  </section>
+</body>
+</html>
